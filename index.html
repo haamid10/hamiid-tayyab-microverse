@@ -9,19 +9,50 @@
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-   
-
     <header id="header">
-      <img src="//./si.jpg" id="header-img" alt="">
+      <img
+        src="https://pathrise-website-guide-wp.s3.us-west-1.amazonaws.com/guides/wp-content/uploads/2022/06/16013216/MicroverseLogo-833x474.png"
+        id="header-img"
+        alt=""
+      />
       <nav id="nav-bar">
         <li>
-          <a href="#">features</a>
-          <a href="#">How it works</a>
-          <a href="#">Contacts</a>
+          <a class="nav-link" href="#features">features</a>
+          <a class="nav-link" href="#how-it-works">How it works</a>
+          <a class="nav-link" href="#contacts">Contacts</a>
         </li>
       </nav>
     </header>
 
-    <script  src="js/index.js"></script>
+    <main>
+      <section id="features">
+        <h1>Features</h1>
+
+        <iframe
+          id="video"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/NW6CPOmlV2M"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </section>
+      <section id="how-it-works">
+        <h1>How it works</h1>
+      </section>
+      <section id="contacts">
+        <h1>Contacts</h1>
+
+        <form id="form" action="">
+          <input type="email" id="email" placeholder="john@gmail.com" />
+
+          <input type="submit" id="submit" />
+        </form>
+      </section>
+    </main>
+
+    <script src="js/index.js"></script>
   </body>
 </html>

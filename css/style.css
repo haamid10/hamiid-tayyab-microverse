@@ -1,0 +1,18 @@
+*{
+  margin:0;
+}
+
+#header{
+  display: flex;
+  flex-direction: row;
+
+}
+#header-img{
+
+  width: 200px;
+}
+
+#navbar{
+  display: flex;
+  justify-content: space-around;
+}
